@@ -1,3 +1,7 @@
+.div_main{
+    outline: 1px solid #000; 
+    width: 1500px;
+}
 .div_border {
     outline: 2px solid #000; 
     padding: 15px;
@@ -5,7 +9,8 @@
     background-color: antiquewhite;
 }
 .div_one{
-    width: 180px;
+    min-width: 150px;
+    max-width: 200px;
     padding: 15px;
     outline: 2px solid #000; 
     float: left;
@@ -14,12 +19,12 @@
 }
 .div_two{
     padding: 15px;
-    position: relative; 
     text-align: right;
 }
 .div_three{
-    width: 150px;
-    height: 730px;
+    width: 140px;
+    min-height: 725px;
+    max-width: 800px;
     padding: 15px;
     outline: 2px solid #000;
     float: left;
@@ -28,43 +33,33 @@
 }
 .div_four{
     width: 650px;
-    height: 650px;
+    height: 640px;
     padding: 15px;
     outline: 2px solid #000;
     float: left;
-    left: 100px;
     text-align: center;
     background-color: lightskyblue;
 }
 .div_five{
-    width: 615px;
+    width: 620px;
     padding: 15px;
     outline: 2px solid #000;
-    float: left;
-    position: relative;
-    top: -680px;
-    left: 680px;
+    float: right;
     background-color: khaki;
 }
 .div_six{
-    width: 615px;
+    width: 620px;
     padding: 15px;
     outline: 2px solid #000;
-    position: relative; 
-    float: left;
-    top: -275px;
-    left: 35px;
+    float: right;
     background-color: lightgray;
 }
 .div_seven{
-    width: 1295px;
+    width: 1300px;
     height: 50px;
     outline: 2px solid #000;
     padding: 15px;
-    position: relative;
     float: left;
-    top: -401px;
-    left: 180px;
     background-color: antiquewhite;
 }
 .ol_st{
