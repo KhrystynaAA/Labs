@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main > div{
+    outline: 2px solid purple;
+}
+.border{
+    outline: 1px solid darkblue;
+    padding: 10px;
+    text-align: right;
+    background-color: white;
+}
+.box1{
+    display: flex;
+}
+.box2{
+    display: flex;
+}
+.dep1{
+    display: flex;
+    padding: 15px;
+    background-color: mistyrose;
+    justify-content: space-between;
+}
+.dep2{
+    text-align: right;
+    background-color: yellow;
+}
+.dep3{
+    text-align: center;
+    background-color: violet;
+}
+.dep4{
+    background-color: salmon;
+}
+.dep5{
+    background-color: paleturquoise;
+}
+
+.ol_st{
+    text-align: left;
+}
